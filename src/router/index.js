@@ -4,6 +4,8 @@ import About from '../views/About.vue'
 import Services from '../views/Services.vue'
 import Portfolio from '../views/Portfolio.vue'
 import Blog from '../views/Blog.vue'
+import Login from '../views/Login.vue'
+import Profile from '../views/Profile.vue'
 
 const routes = [
   {
@@ -30,6 +32,16 @@ const routes = [
     path: '/blog',
     name: 'Blog',
     component: Blog
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
+  },
+  {
+    path: '/profile',
+    name: 'Profile',
+    component: Profile
   }
 ]
 
